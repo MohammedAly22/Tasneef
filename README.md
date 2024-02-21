@@ -1,5 +1,5 @@
 # "Tasneef - تصنيف" | An Arabic POS Tagger
-In natural language processing (NLP), Part of Speech (POS) refers to the grammatical category or syntactic function that a word serves in a sentence. It's a way of categorizing words based on their roles within the structure of a sentence. POS tagging involves assigning a specific label, such as noun, verb, adjective, adverb, etc., to each word in a sentence.
+In natural language processing (NLP), **Part of Speech (POS)** refers to the **grammatical category** or syntactic function that a word serves in a sentence. It's a way of **categorizing words** based on their roles within the structure of a sentence. POS tagging involves assigning a specific label, such as `noun`, `verb`, `adjective`, `adverb`, etc., to each word in a sentence.
 
 Here are some common parts of speech:
 | Tag              | Arabic Tag | Description |
@@ -13,11 +13,11 @@ Here are some common parts of speech:
 | Conjunction (CONJ) |  اقتران   | Connects words, phrases, or clauses. Examples: and, but, or. |
 | Interjection (INTJ) |  تعجب   | Expresses strong emotion. Examples: wow, oh, ouch. |
 
-POS tagging is an essential task in NLP because understanding the grammatical structure of a sentence helps machines comprehend the meaning and context of the text. It's particularly useful in applications like text analysis, information retrieval, and language translation.
+**POS tagging** is an essential task in NLP because understanding the grammatical structure of a sentence helps machines **comprehend the meaning and context of the text**. It's particularly useful in applications like **text analysis**, **information retrieval**, and **language translation**.
 
 # Usage
 ## Testing the model on the Hugging Face Hub:
-You can navigate to this [page](https://huggingface.co/mohammedaly2222002/xlm-roberta-base-finetuned-ud-arabic) to see model's widget on the Hugging Face Hub
+You can navigate to this [page](https://huggingface.co/mohammedaly2222002/xlm-roberta-base-finetuned-ud-arabic) to see the model's widget on the Hugging Face Hub
 https://github.com/MohammedAly22/Tasneef/assets/90681796/bfbc889c-3308-4e29-84ff-259ebccaa30b
 
 ## Loading the model as a Hugging Face Pipeline:
@@ -43,9 +43,9 @@ entites:  ['VERB', 'VERB', 'X', 'NOUN', 'PUNCT', 'CCONJ', 'VERB', 'VERB', 'NUM',
 ```
 
 # Dataset
-The Arabic-PADT UD treebank is based on the Prague Arabic Dependency Treebank (PADT), created at the Charles University in Prague.
+The [Arabic-PADT UD treebank](https://github.com/UniversalDependencies/UD_Arabic-PADT) is based on the Prague Arabic Dependency Treebank (PADT), created at the Charles University in Prague.
 
-The treebank consists of 7,664 sentences (282,384 tokens) and its domain is mainly newswire. The annotation is licensed under the terms of CC BY-NC-SA 3.0 and its original (non-UD) version can be downloaded from http://hdl.handle.net/11858/00-097C-0000-0001-4872-3.
+The treebank consists of **7,664** sentences (282,384 tokens) and its domain is mainly **newswire**. The annotation is licensed under the terms of CC BY-NC-SA 3.0 and its original (non-UD) version can be downloaded from http://hdl.handle.net/11858/00-097C-0000-0001-4872-3.
 
 The morphological and syntactic annotation of the Arabic UD treebank is created through the conversion of PADT data. The conversion procedure has been designed by Dan Zeman. The main coordinator of the original PADT project was Otakar Smrž.
 
