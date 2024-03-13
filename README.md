@@ -16,13 +16,21 @@ Here are some common parts of speech:
 **POS tagging** is an essential task in NLP because understanding the grammatical structure of a sentence helps machines **comprehend the meaning and context of the text**. It's particularly useful in applications like **text analysis**, **information retrieval**, and **language translation**.
 
 # Demo:
-
-
 https://github.com/MohammedAly22/Tasneef/assets/90681796/e8d9dbd9-f016-4a30-8ee0-a176e328780e
 
-
-
 # Usage:
+## Downloading and Running Tasneef Locally:
+1. Clone this repository
+```git
+git clone https://github.com/MohammedAly22/Tasneef
+```
+
+2. Inside the project folder, run the demo using the following command
+```
+streamlit run main.py
+```
+
+## Use the Model as a Hugging Face pipeline:
 ```python
 from transformers import pipeline
 
@@ -38,7 +46,7 @@ print(f"words:    {words}")
 print(f"entites:  {predicted_entities}")
 ```
 
-result:
+**output**:
 ```
 words:    ['▁اشتر', 'ى', '▁خالد', '▁سيارة', '،', '▁و', '▁أصبح', '▁يمتلك', '▁3', '▁سيارات', '.']
 entites:  ['VERB', 'VERB', 'X', 'NOUN', 'PUNCT', 'CCONJ', 'VERB', 'VERB', 'NUM', 'NOUN', 'PUNCT']
