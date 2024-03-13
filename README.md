@@ -15,13 +15,14 @@ Here are some common parts of speech:
 
 **POS tagging** is an essential task in NLP because understanding the grammatical structure of a sentence helps machines **comprehend the meaning and context of the text**. It's particularly useful in applications like **text analysis**, **information retrieval**, and **language translation**.
 
-# Usage
-## Testing the model on the Hugging Face Hub:
-You can navigate to this [page](https://huggingface.co/mohammedaly2222002/xlm-roberta-base-finetuned-ud-arabic) to see the model's widget on the Hugging Face Hub
+# Demo:
 
-https://github.com/MohammedAly22/Tasneef/assets/90681796/bfbc889c-3308-4e29-84ff-259ebccaa30b
 
-## Loading the model as a Hugging Face Pipeline:
+https://github.com/MohammedAly22/Tasneef/assets/90681796/e8d9dbd9-f016-4a30-8ee0-a176e328780e
+
+
+
+# Usage:
 ```python
 from transformers import pipeline
 
