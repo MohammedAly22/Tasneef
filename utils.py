@@ -1,7 +1,7 @@
 from transformers import pipeline
 
 
-pipe = pipeline('token-classification', 'mohammedaly2222002/xlm-roberta-base-finetuned-ud-arabic')
+pipe = pipeline('token-classification', 'mohammedaly22/xlm-roberta-base-finetuned-ud-arabic')
 
 class_mapper = {
     'VERB': 'فعل',
