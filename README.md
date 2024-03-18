@@ -16,7 +16,8 @@ Here are some common parts of speech:
 **POS tagging** is an essential task in NLP because understanding the grammatical structure of a sentence helps machines **comprehend the meaning and context of the text**. It's particularly useful in applications like **text analysis**, **information retrieval**, and **language translation**.
 
 # Demo:
-https://github.com/MohammedAly22/Tasneef/assets/90681796/e8d9dbd9-f016-4a30-8ee0-a176e328780e
+https://github.com/MohammedAly22/Tasneef/assets/90681796/299ede6e-326d-4aef-8bbf-84d78e1b7596
+
 
 # Usage:
 ## Downloading and Running Tasneef Locally:
