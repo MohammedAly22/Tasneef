@@ -1,5 +1,4 @@
 # "Tasneef - تصنيف" | An Arabic POS Tagger
-[![Running Demo](https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.svg)](https://tasneef.streamlit.app/]
 In natural language processing (NLP), **Part of Speech (POS)** refers to the **grammatical category** or syntactic function that a word serves in a sentence. It's a way of **categorizing words** based on their roles within the structure of a sentence. POS tagging involves assigning a specific label, such as `noun`, `verb`, `adjective`, `adverb`, etc., to each word in a sentence.
 
 Here are some common parts of speech:
