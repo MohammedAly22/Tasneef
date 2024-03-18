@@ -15,12 +15,16 @@ h1 {
 
 /* buttons */
 .st-emotion-cache-7ym5gk {
-    /* width: 100%; */
+    width: 30%;
     height: 40px;
     background-color: #29e778;
     color: #fff;
     transition: 0.4s;
     border: none;
+}
+
+textarea {
+    height: auto;
 }
 
 .st-emotion-cache-7ym5gk:hover {
