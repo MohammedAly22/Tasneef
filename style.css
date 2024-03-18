@@ -401,8 +401,12 @@ h1 {
 
 .highlighted-text {
     line-height: 45px;
-    /* max-width: 98%; */
     margin-bottom: 10px;
+    overflow: auto;
+}
+
+.highlighted-text>span {
+    white-space: nowrap;
 }
 
 /* footer */
