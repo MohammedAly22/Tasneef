@@ -14,7 +14,8 @@ h1 {
 
 
 /* buttons */
-.st-emotion-cache-7ym5gk {
+.st-emotion-cache-7ym5gk,
+.st-emotion-cache-19rxjzo {
     width: 30%;
     height: 40px;
     background-color: #29e778;
@@ -23,18 +24,16 @@ h1 {
     border: none;
 }
 
-textarea {
-    height: auto;
-}
 
-.st-emotion-cache-7ym5gk:hover {
+.st-emotion-cache-7ym5gk:hover,
+.st-emotion-cache-19rxjzo:hover {
     background-color: #25d76f;
     color: #fff;
     border: none;
 }
 
-.st-emotion-cache-7ym5gk:focus {
-    /* background-color: #3747fd; */
+.st-emotion-cache-7ym5gk:focus, 
+.st-emotion-cache-19rxjzo:focus {
     color: #fff !important;
     box-shadow: none;
     border: none;
