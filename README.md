@@ -15,11 +15,13 @@ Here are some common parts of speech:
 
 **POS tagging** is an essential task in NLP because understanding the grammatical structure of a sentence helps machines **comprehend the meaning and context of the text**. It's particularly useful in applications like **text analysis**, **information retrieval**, and **language translation**.
 
-# Demo:
+# Running Demo:
 https://github.com/MohammedAly22/Tasneef/assets/90681796/299ede6e-326d-4aef-8bbf-84d78e1b7596
 
 
 # Usage:
+Demo link: https://tasneef.streamlit.app/
+
 ## Downloading and Running Tasneef Locally:
 1. Clone this repository
 ```git
@@ -85,5 +87,5 @@ Here is the table of results after fine-tuning for 3 epochs:
 | 2 | 0.090000 | 0.090725 | 0.966489 | 0.976796 |
 | 3 | 0.055800 | 0.091719 | 0.969978 | 0.979393 |
 
-classification report:
+confusion matrix:
 ![download](https://github.com/MohammedAly22/Tasneef/assets/90681796/eb9857e7-5bc0-460f-b3d6-ef31c94c68b1)
