@@ -37,7 +37,7 @@ streamlit run main.py
 ```python
 from transformers import pipeline
 
-pos_tagger = pipeline("token-classification", "mohammedaly2222002/xlm-roberta-base-finetuned-ud-arabic")
+pos_tagger = pipeline("token-classification", "mohammedaly22/xlm-roberta-base-finetuned-ud-arabic")
 text = "اشترى خالد سيارة، و أصبح يمتلك 3 سيارات."
 
 predictions = pos_tagger(text)
