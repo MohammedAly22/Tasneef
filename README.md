@@ -22,6 +22,8 @@ https://github.com/MohammedAly22/Tasneef/assets/90681796/299ede6e-326d-4aef-8bbf
 # Usage:
 Demo link: https://tasneef.streamlit.app/
 
+Hugging Face model card: https://huggingface.co/mohammedaly22/xlm-roberta-base-finetuned-ud-arabic
+
 ## Downloading and Running Tasneef Locally:
 1. Clone this repository
 ```git
